@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gov.br - Acesse sua conta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/25e98dd5c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="https://www.gov.br/">
+            <img src="https://sso.acesso.gov.br/assets/govbr/img/govbr.png" alt="logo gov">
+        </a>
+        
+        <div class="acess">
+            <span>
+               <a href="#">
+                <i class="fa-solid fa-circle-half-stroke">   </i>
+               <span>Alto Contraste</span>
+               </a>
+            </span>
+            <span>
+                <a href="#">
+                    <i class="fas fa-deaf"> </i>
+                    <span>VLibras</span>
+                </a>
+            </span>
+        </div>
+    </header>
+    <div class="conteudo">
+        <aside id="left">
+            <img src="https://sso.acesso.gov.br/assets/govbr/img/conta_govbr_v2.jpg" alt="fotodaveia" id="veia">
+          </aside>
+          <main>
+            <form action="#" method="post">
+                <div class="login">
+                    <h3>Identifique-se no gov.br com:</h3>
+                    <div class="cpf">
+                        <a href="#">
+                            <img src="https://sso.acesso.gov.br/assets/govbr/img/icons/id-card-solid.png" alt="">
+                            Número do CPF
+                        </a>
+                    </div>
+                    <div class="formulario">
+                        <p>Digite seu CPF para <strong>criar</strong> ou <strong>acessar</strong> sua conta gov.br</p>
+                        
+                            <form class="forms">
+                                <label for="cpf">CPF</label>
+                                <input type="text" placeholder="Digite seu CPF" id="cpform" name="cpf"
+                                pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"
+                                title="Digite o CPF no formato xxx.xxx.xxx-xx">
+                            </form>
+                            <div class="button">
+                                <button type="submit" id="botao">Continuar</button>
+                               </div>
+                    </div>
+                    <label id="other">Outras opções de identificação:</label>
+                    <hr id="espaca">
+                    <div class="bank">
+                        <button type="bottom" id="botao2">
+                            <img src="https://sso.acesso.gov.br/assets/govbr/img/icons/InternetBanking-green.png" alt="bankk">
+                            Login com seu banco
+                            <span>
+                                SUA CONTA SERÁ PRATA
+                            </span>
+                        </button>
+                    </div>
+                    <div class="bottom">
+                        <a href="#">
+                            <img src="https://sso.acesso.gov.br/assets/govbr/img/icons/qrcode.png" alt="qrcodeok">
+                            Login com QR code
+                        </a>
+                    </div>
+                    <div class="bottom">
+                        <button id="botao3">
+                            <img src="https://sso.acesso.gov.br/assets/govbr/img/icons/CD.png" alt="pendriveeuacho">
+                            Seu certificado digital
+                        </button>
+                    </div>
+                    <div class="bottom">
+                        <button id="botao4">
+                            <img src="https://sso.acesso.gov.br/assets/govbr/img/icons/CD-Nuvem.png" alt="nuvemm">
+                            Seu certificado digital em nuvem
+                        </button>
+                    </div>
+                </div>
+           
+          </main>
+    </div>
+
+</body>
+</html>
